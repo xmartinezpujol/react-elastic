@@ -1,0 +1,45 @@
+{
+  "name": "react-elastic",
+  "version": "1.0.0",
+  "description": "Elasticsearch + React components",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^2.3.2",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "elasticsearch": "^14.1.0",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.12.0",
+    "html-webpack-plugin": "^3.0.6",
+    "popmotion": "^8.1.17",
+    "popmotion-react": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-intl": "^2.4.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0",
+    "xceed-ui": "^1.0.63"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --port 3001 --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmartinezpujol/react-elastic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmartinezpujol/react-elastic/issues"
+  },
+  "homepage": "https://github.com/xmartinezpujol/react-elastic#readme"
+}
