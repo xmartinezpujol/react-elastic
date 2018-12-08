@@ -16,12 +16,13 @@
     "popmotion": "^8.1.17",
     "popmotion-react": "^2.1.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-intl": "^2.4.0",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.10",
-    "webpack-dev-server": "^3.1.0",
-    "xceed-ui": "^1.0.63"
+    "webpack-dev-server": "^3.1.8",
+    "xceed-ui": "^1.0.63",
+    "snyk": "^1.116.2"
   },
   "devDependencies": {
     "babel-loader": "^7.1.4",
@@ -30,7 +31,9 @@
   },
   "scripts": {
     "start": "webpack-dev-server --port 3001 --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -41,5 +44,6 @@
   "bugs": {
     "url": "https://github.com/xmartinezpujol/react-elastic/issues"
   },
-  "homepage": "https://github.com/xmartinezpujol/react-elastic#readme"
+  "homepage": "https://github.com/xmartinezpujol/react-elastic#readme",
+  "snyk": true
 }
