@@ -19,8 +19,8 @@
     "react-dom": "^16.2.0",
     "react-intl": "^2.4.0",
     "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.10",
-    "webpack-dev-server": "^3.1.0",
+    "webpack-cli": "^3.0.0",
+    "webpack-dev-server": "^3.1.2",
     "xceed-ui": "^1.0.63"
   },
   "devDependencies": {
